@@ -25,6 +25,7 @@ function App() {
     setIsTimeRuning(true)
     setTimeRemaining(STARTING_TIME)
     setText("")
+    setWordCount(0)
     textBoxRef.current.disabled = false
     textBoxRef.current.focus()
   }
@@ -61,7 +62,6 @@ function App() {
         >Start
       </button>
       <h1>Word Count: {wordCount} </h1>
-      <h3>Words per Second:</h3>
     </div>
   );
 }
