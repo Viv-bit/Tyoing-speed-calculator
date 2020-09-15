@@ -15,3 +15,6 @@ textarea{
     height: 45vh;
     margin: 0 auto;
 }
+textarea:disabled {
+    background-color: rgb(204, 160, 160);
+}
